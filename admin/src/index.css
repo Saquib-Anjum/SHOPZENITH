@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nanum+Gothic+Coding&family=Outfit:wght@100..900&family=Pacifico&family=Prata&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+  }
+  select,input,textarea{
+    border:1px solid #c2c2c2;
+    outline-color:#c586A5;
+    border-radius: 5px;
+  }
+.active{
+   background-color: #bdd9e66e; 
+   border-color: #c586A5;
+}
+
+
+  

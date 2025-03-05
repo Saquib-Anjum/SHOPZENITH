@@ -1,0 +1,10 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "javascript.preferences.importModuleSpecifier": "shortest",
+    "typescript.preferences.autoImportFileExcludePatterns": ["**/node_modules/**"],
+    "javascript.preferences.autoImportFileExcludePatterns": ["**/node_modules/**"]
+  }
+  

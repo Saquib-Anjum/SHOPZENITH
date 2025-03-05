@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "./src", // Adjust path based on folder structure
+      "paths": {
+        "@/*": ["*"] // Enable absolute imports
+      }
+    },
+    "exclude": ["node_modules"]
+  }
+  

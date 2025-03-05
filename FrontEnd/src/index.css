@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nanum+Gothic+Coding&family=Outfit:wght@100..900&family=Pacifico&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Prata&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active hr {
+    display: block;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    font-family: outfit;
+  }
+::-webkit-scrollbar{
+  display: none;
+}
+  @media(max-width:640px){
+    a.active{
+      background-color: black;
+      color:white;
+    }
+  }
+  
