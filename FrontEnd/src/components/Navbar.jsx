@@ -1,7 +1,7 @@
-import React, { useState ,useContext} from "react";
+import { useContext, useState } from "react";
+import { Link, NavLink } from "react-router";
 import { assets } from "../assets/assets";
-import { NavLink, Link } from "react-router";
-import {ShopContext} from '../context/ShopContext'
+import { ShopContext } from '../context/ShopContext';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -39,6 +39,12 @@ const logout = ()=>{
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
+        <div className="flex flex-col items-center gap-1 border border-gray-300 rounded-md  pl-1 pr-1">
+  <p><a href="https://shopzenith-admin.vercel.app/" >
+    Admin
+  </a></p>
+</div>
+
       </ul>
       <div className="flex items-center gap-6">
         <Link to='/collection'>
@@ -127,6 +133,16 @@ const logout = ()=>{
           >
             CONTACT
           </NavLink>
+          <div
+           
+            className="py-2 pl-6 border"
+            onClick={() => {
+              setVisible(false);
+            }}
+          >
+           <p><a href="https://shopzenith-admin.vercel.app/">Admin</a></p>
+          </div>
+         
         </div>
       </div>
     </div>
