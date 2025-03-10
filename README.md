@@ -1,11 +1,11 @@
 # 🛍️ ShopZenith - Modern E-commerce Platform
 
 <div align="center">
-  <img src="https://via.placeholder.com/200" alt="ShopZenith Logo" width="200"/>
+  <img src="https://github.com/Saquib-Anjum/SHOPZENITH/blob/main/screenshot/logo2.png" alt="ShopZenith Logo" width="200"/>
   
   [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/yourusername/shopzenith)
   [![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue.svg)](https://www.mongodb.com/mern-stack)
-  [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
+
 </div>
 
 ---
